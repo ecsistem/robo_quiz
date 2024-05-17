@@ -3,14 +3,44 @@ const data = [
     category: "Algoritmos de Programação",
     questions: [
       {
-        question: "O que é um algoritmo?",
+        question: "O que é um loop em programação?",
         options: [
-          "Um conjunto de instruções para resolver um problema.",
-          "Uma linguagem de programação.",
+          "Uma instrução que se repete várias vezes.",
           "Um tipo de variável.",
-          "Uma função matemática."
+          "Uma estrutura de controle que organiza dados.",
+          "Uma operação matemática complexa."
         ],
-        answer: "Um conjunto de instruções para resolver um problema."
+        answer: "Uma instrução que se repete várias vezes."
+      },
+      {
+        question: "Para que serve uma função em programação?",
+        options: [
+          "Para exibir resultados na tela.",
+          "Para armazenar dados permanentes.",
+          "Para repetir um bloco de código várias vezes.",
+          "Para resolver um problema específico."
+        ],
+        answer: "Para resolver um problema específico."
+      },
+      {
+        question: "O que é um array?",
+        options: [
+          "Um tipo de variável.",
+          "Uma estrutura de dados que armazena um único valor.",
+          "Uma estrutura de controle em programação.",
+          "Uma estrutura de dados que armazena vários valores do mesmo tipo."
+        ],
+        answer: "Uma estrutura de dados que armazena vários valores do mesmo tipo."
+      },
+      {
+        question: "O que é um algoritmo de ordenação?",
+        options: [
+          "Um algoritmo que organiza dados aleatoriamente.",
+          "Um algoritmo que organiza dados em ordem específica.",
+          "Um algoritmo que verifica se os dados estão organizados corretamente.",
+          "Um algoritmo que cria gráficos e diagramas."
+        ],
+        answer: "Um algoritmo que organiza dados em ordem específica."
       },
       {
         question: "Qual é a finalidade principal de um algoritmo?",
@@ -63,45 +93,15 @@ const data = [
         answer: "Um conjunto de instruções para resolver um problema."
       },
       {
-        question: "O que é um array em programação?",
+        question: "O que é uma constante em programação?",
         options: [
-          "Uma estrutura de dados que armazena um único valor.",
-          "Uma estrutura de dados que armazena múltiplos valores do mesmo tipo.",
-          "Um tipo de variável.",
-          "Uma linguagem de programação."
+          "Um tipo de variável que pode ser alterado durante a execução do programa.",
+          "Um valor que nunca muda durante a execução do programa.",
+          "Um tipo de estrutura de dados.",
+          "Uma operação matemática."
         ],
-        answer: "Uma estrutura de dados que armazena múltiplos valores do mesmo tipo."
+        answer: "Um valor que nunca muda durante a execução do programa."
       },
-      {
-        question: "O que é um algoritmo de ordenação?",
-        options: [
-          "Um algoritmo que organiza dados em uma planilha.",
-          "Um algoritmo que resolve problemas matemáticos.",
-          "Um algoritmo que organiza dados em ordem específica.",
-          "Um algoritmo que executa operações matemáticas complexas."
-        ],
-        answer: "Um algoritmo que organiza dados em ordem específica."
-      },
-      {
-        question: "Qual é a diferença entre um algoritmo de busca linear e um algoritmo de busca binária?",
-        options: [
-          "Um algoritmo de busca linear é mais eficiente que um algoritmo de busca binária.",
-          "Um algoritmo de busca linear funciona apenas em arrays, enquanto um algoritmo de busca binária funciona em qualquer estrutura de dados.",
-          "Um algoritmo de busca linear verifica cada elemento em sequência, enquanto um algoritmo de busca binária divide o espaço de busca pela metade a cada iteração.",
-          "Um algoritmo de busca linear retorna verdadeiro ou falso, enquanto um algoritmo de busca binária retorna a posição do elemento encontrado."
-        ],
-        answer: "Um algoritmo de busca linear verifica cada elemento em sequência, enquanto um algoritmo de busca binária divide o espaço de busca pela metade a cada iteração."
-      },
-      {
-        question: "O que é recursividade em algoritmos?",
-        options: [
-          "Uma técnica para evitar loops em algoritmos.",
-          "Uma técnica que envolve a chamada de uma função dentro de si mesma.",
-          "Uma técnica para transformar algoritmos em funções.",
-          "Uma técnica para medir a eficiência de um algoritmo."
-        ],
-        answer: "Uma técnica que envolve a chamada de uma função dentro de si mesma."
-      }
     ]
   }
 ];
