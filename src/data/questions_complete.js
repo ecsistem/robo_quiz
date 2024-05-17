@@ -3,24 +3,24 @@ const data = [
     category: "Algoritmos de Programação",
     questions: [
       {
-        question: "O que é um loop em programação?",
+        question: "O que são operadores aritméticos em programação?",
         options: [
-          "Uma instrução que se repete várias vezes.",
-          "Um tipo de variável.",
-          "Uma estrutura de controle que organiza dados.",
-          "Uma operação matemática complexa."
+          "Instruções para comparar valores.",
+          "Operações que manipulam strings.",
+          "Operações matemáticas para realizar cálculos com números.",
+          "Instruções para alterar a ordem de execução do código."
         ],
-        answer: "Uma instrução que se repete várias vezes."
+        answer: "Operações matemáticas para realizar cálculos com números."
       },
       {
-        question: "Para que serve uma função em programação?",
+        question: "Por que usamos funções quando escrevemos programas?",
         options: [
-          "Para exibir resultados na tela.",
-          "Para armazenar dados permanentes.",
-          "Para repetir um bloco de código várias vezes.",
-          "Para resolver um problema específico."
+          "Para mostrar coisas na tela.",
+          "Para guardar informações para sempre.",
+          "Para fazer partes do programa que resolvem problemas específicos e podem ser usadas várias vezes.",
+          "Para decidir o que o programa deve fazer em diferentes situações."
         ],
-        answer: "Para resolver um problema específico."
+        answer: "Para fazer partes do programa que resolvem problemas específicos e podem ser usadas várias vezes."
       },
       {
         question: "O que é um array?",
@@ -33,14 +33,14 @@ const data = [
         answer: "Uma estrutura de dados que armazena vários valores do mesmo tipo."
       },
       {
-        question: "O que é um algoritmo de ordenação?",
+        question: "Qual é a finalidade da estrutura if...else em programação?",
         options: [
-          "Um algoritmo que organiza dados aleatoriamente.",
-          "Um algoritmo que organiza dados em ordem específica.",
-          "Um algoritmo que verifica se os dados estão organizados corretamente.",
-          "Um algoritmo que cria gráficos e diagramas."
+          "Para repetir um bloco de código várias vezes.",
+          "Para verificar uma condição e executar um bloco de código se a condição for verdadeira, caso contrário, executar outro bloco de código.",
+          "Para dividir o código em partes menores para facilitar a leitura.",
+          "Para interromper a execução do programa."
         ],
-        answer: "Um algoritmo que organiza dados em ordem específica."
+        answer: "Para verificar uma condição e executar um bloco de código se a condição for verdadeira, caso contrário, executar outro bloco de código."
       },
       {
         question: "Qual é a finalidade principal de um algoritmo?",
